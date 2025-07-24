@@ -1,0 +1,103 @@
+/* General styles */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+  }
+  
+  /* Admin Panel Container */
+  .p-4 {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Headings */
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: #444;
+    font-size: 18px;
+  }
+  
+  /* Donation & Volunteer Cards */
+  .p-2 {
+    background: #f8f9fa;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .p-2:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Buttons */
+  button {
+    border: none;
+    padding: 10px 14px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  /* Assign Button */
+  .bg-blue-500 {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .bg-blue-500:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Delete Button */
+  .bg-red-500 {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .bg-red-500:hover {
+    background-color: #b02a37;
+  }
+  
+  /* Remove Volunteer Button */
+  .bg-yellow-500 {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .bg-yellow-500:hover {
+    background-color: #d39e00;
+  }
+  
+  /* Card Structure */
+  .p-2 p {
+    margin: 5px 0;
+    font-size: 15px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .p-4 {
+      width: 90%;
+      margin: 20px auto;
+    }
+  }

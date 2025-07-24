@@ -1,0 +1,50 @@
+.sidebar {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f0dada;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading Panel */
+  .heading-panel {
+    padding: 20px;
+    text-align: center;
+    background-color: #cd11e6;
+    color: rgb(5, 5, 5);
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+  
+  /* Navigation Panel */
+  .navigation-panel {
+    padding: 20px 10px;
+  }
+  
+  .navigation-panel ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .navigation-panel ul li {
+    padding: 12px 0;
+  }
+  
+  .navigation-panel ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 5px 10px;
+  }
+  
+  .navigation-panel ul li a:hover {
+    background-color: #7363ff;
+    color: white;
+    border-radius: 5px;
+  }

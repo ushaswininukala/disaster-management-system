@@ -1,0 +1,75 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box;
+    background-color: #f5f5f5; /* Optional: Add a background color */
+    padding: 20px; /* Add padding for spacing from the edges */
+    margin: 0;
+    flex-grow: 1; /* Remove default margins */
+     /* No scrollbars */
+  }
+  
+  /* Dashboard Title */
+  .dashboard-title {
+    text-align: center; /* Align title to the left */
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-left: 20px; /* Space below the title */
+  }
+  
+  /* Row Layout */
+  .dashboard-row {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* Space between boxes */
+    justify-content: flex-end; /* Align boxes to the left */
+    width: 90%; /* Use full width of the container */
+    margin: 0 auto; /* Center the row horizontally */
+  }
+  
+  /* Individual Boxes */
+  .dashboard-box {
+   
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+    /* Fixed Box Size */
+    width: 23%; /* Ensure boxes take up fixed proportions */
+    height: 140px; /* Fixed height */
+  }
+  
+  .dashboard-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Icons */
+  .dashboard-icon {
+    font-size: 30px; /* Fixed icon size */
+    color: #6c63ff;
+    margin-bottom: 10px;
+  }
+  
+  /* Text */
+  .dashboard-box-title {
+    font-size: 14px; /* Fixed text size */
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .dashboard-box-count {
+    font-size: 20px; /* Fixed number size */
+    color: #1f2024;
+    font-weight: bold;
+  }
